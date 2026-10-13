@@ -1,0 +1,47 @@
+# Julio Ribes
+
+> Osteópata colegiado (nº 464609988) y profesor de Pilates en Gandía (Valencia, España). Dirige el Centro de Osteopatía y Pilates Julio Ribes, divulga sobre ritmos circadianos en Optimización Circadiana, es autor de doce libros en la colección Salud Integral y Ciencia / Integral Health and Science y docente de osteopatía y quiropraxia en CIM Formación Valencia.
+
+Sitio en español. Sin frameworks: HTML, CSS y JavaScript estáticos.
+
+## Páginas
+
+- [Inicio](https://julioribes.es/): presentación, cifras, las cuatro áreas de trabajo y preguntas frecuentes.
+- [Centro de Osteopatía y Pilates](https://julioribes.es/centro.html): qué es la osteopatía, Pilates con máquinas en grupos reducidos, primera visita, galería, ubicación y FAQ.
+- [Optimización Circadiana](https://julioribes.es/optimizacion-circadiana.html): proyecto de divulgación sobre luz, oscuridad, sueño, alimentación, movimiento y temperatura. Más de 12.000 seguidores. FAQ.
+- [Libros](https://julioribes.es/libros.html): los doce títulos con descripción, idioma y enlace a Amazon. FAQ.
+- [Formación](https://julioribes.es/formacion.html): docencia en osteopatía y quiropraxia en CIM Formación Valencia.
+- [Sobre Julio](https://julioribes.es/sobre-julio.html): trayectoria profesional, credenciales, publicaciones y divulgación.
+- [Contacto](https://julioribes.es/contacto.html) y [Reservar cita](https://julioribes.es/reservar.html): teléfono y WhatsApp 691 20 16 49.
+
+## Centro
+
+- Nombre: Centro de Osteopatía y Pilates Julio Ribes
+- Dirección: Carrer Ferrocarril d'Alcoi, 26, 46701 Gandia, Valencia (dentro del pasaje)
+- Teléfono y WhatsApp: +34 691 20 16 49
+- Valoración: 5,0 en Google con 75 reseñas
+- Servicios: osteopatía, Pilates con máquinas en grupos reducidos. La osteopatía no requiere prescripción médica.
+
+## Libros en español (Salud Integral y Ciencia)
+
+- Gafas Rojas: La Solución Circadiana: Una guía sobre el uso de gafas rojas para reducir la exposición nocturna a luz azul y verde, cuidar la melatonina y favorecer la sincronización del reloj biológico.
+- Los ritmos circadianos y el reloj biológico: Una introducción al reloj biológico y a cómo la luz, la oscuridad y los hábitos diarios influyen en el sueño, la energía y la salud.
+- El poder curativo del sol: Una mirada al papel de la luz solar en el reloj biológico, el estado de ánimo y la vitalidad, con pautas para aprovecharla de forma segura.
+- Ayuno intermitente y ciencia: Una explicación de las bases del ayuno intermitente, su relación con los ritmos circadianos y formas prudentes de adaptarlo a cada persona.
+- Termogénesis: El poder del frío: Una introducción a la termogénesis y a cómo incorporar la exposición al frío de forma gradual y segura en la rutina diaria.
+- Basta de tóxicos en el hogar: Proteja a su familia: Identifica sustancias y productos habituales del hogar que pueden afectar la salud y propone medidas prácticas para reducir su presencia.
+- Cuando la glucosa alta mata: Explica cómo se regula la glucosa, qué factores alteran sus niveles y qué hábitos pueden ayudar a mantenerlos estables.
+- Alzheimer, ¿y si pudiera evitarlo?: Explora factores de estilo de vida relacionados con la salud cerebral —descanso, alimentación y movimiento— desde una perspectiva de prevención.
+
+## Books in English (Integral Health and Science)
+
+- Circadian Rhythms and the Biological Clock: An introduction to the biological clock and how light, darkness and daily habits shape sleep, energy and health.
+- When High Glucose Kills: How glucose is regulated, what disrupts it and which habits help keep it stable.
+- The Healing Power of the Sun: The role of sunlight in the biological clock, mood and vitality, with guidelines for safe exposure.
+- Intermittent Fasting and Science: The foundations of intermittent fasting, its link to circadian rhythms and sensible ways to adapt it to each person.
+
+## Enlaces
+
+- Instagram: https://www.instagram.com/optimizacioncircadiana/
+- Amazon: https://www.amazon.es/s?k=Julio+Ribes
+- Mapa: https://www.google.com/maps/search/?api=1&query=Carrer+Ferrocarril+d%27Alcoi+26%2C+46701+Gandia
