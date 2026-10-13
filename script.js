@@ -218,7 +218,23 @@
   }
 
   /* ----------------------------------------------------------------------
-     7. Año actual en el pie
+     7. Preguntas frecuentes: solo una respuesta abierta por bloque
+     ---------------------------------------------------------------------- */
+  function initFaq() {
+    var lists = document.querySelectorAll(".faq__list");
+    lists.forEach(function (list) {
+      list.addEventListener("toggle", function (event) {
+        var opened = event.target;
+        if (!opened.open) return;
+        list.querySelectorAll(".faq__item[open]").forEach(function (item) {
+          if (item !== opened) item.open = false;
+        });
+      }, true);
+    });
+  }
+
+  /* ----------------------------------------------------------------------
+     8. Año actual en el pie
      ---------------------------------------------------------------------- */
   function initYear() {
     var el = document.querySelector("[data-year]");
@@ -235,6 +251,7 @@
     initSlider();
     initTabs();
     initBookFlip();
+    initFaq();
     initYear();
   });
 })();
