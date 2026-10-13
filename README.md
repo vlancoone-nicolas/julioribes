@@ -3,7 +3,7 @@
 Sitio web de Julio Ribes (Gandía): centro de osteopatía y Pilates, proyecto de divulgación
 Optimización Circadiana, colección de libros Salud Integral y Ciencia y formación en CIM Formación Valencia.
 
-Hecho a mano con HTML5, CSS3 y JavaScript vanilla. Sin frameworks, sin build, sin dependencias.
+HTML5, CSS3 y JavaScript vanilla. Sin frameworks, sin build, sin dependencias.
 
 ## Estructura
 
@@ -21,13 +21,6 @@ Hecho a mano con HTML5, CSS3 y JavaScript vanilla. Sin frameworks, sin build, si
 └── assets/                       Fotografías y portadas
 ```
 
-## Desarrollo
-
-No hay nada que instalar. Abre `index.html` en el navegador o sirve la carpeta con cualquier servidor estático:
-
-```
-python3 -m http.server
-```
 
 ## Convenciones
 
@@ -40,7 +33,6 @@ python3 -m http.server
 
 ## Pendiente
 
-- URL definitiva de la biblioteca privada (`optimizacion-circadiana.html`).
 - Enlace a la página de autor en Amazon (ahora apunta a la búsqueda por autor).
 - Añadir más reseñas al carrusel: copiar un `<li class="slide">` dentro de `.slider__track`;
   los puntos de navegación se generan solos.
