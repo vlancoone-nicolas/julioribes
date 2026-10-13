@@ -20,6 +20,7 @@ Sitio en español. Sin frameworks: HTML, CSS y JavaScript estáticos.
 - Dirección: Carrer Ferrocarril d'Alcoi, 26, 46701 Gandia, Valencia (dentro del pasaje)
 - Teléfono y WhatsApp: +34 691 20 16 49
 - Valoración: 5,0 en Google con 75 reseñas
+- Horario: lunes y miércoles 15:00–22:00; martes y jueves 12:00–17:30; viernes, sábado y domingo cerrado
 - Servicios: osteopatía, Pilates con máquinas en grupos reducidos. La osteopatía no requiere prescripción médica.
 
 ## Libros en español (Salud Integral y Ciencia)
@@ -43,5 +44,6 @@ Sitio en español. Sin frameworks: HTML, CSS y JavaScript estáticos.
 ## Enlaces
 
 - Instagram: https://www.instagram.com/optimizacioncircadiana/
-- Amazon: https://www.amazon.es/s?k=Julio+Ribes
+- Amazon: https://www.amazon.es/Julio-Ribes/e/B0F91G8CJY
+- Ficha de Google Business: https://share.google/BN2RBKUk3tENMYUAp
 - Mapa: https://www.google.com/maps/search/?api=1&query=Carrer+Ferrocarril+d%27Alcoi+26%2C+46701+Gandia

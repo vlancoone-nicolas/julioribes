@@ -2444,3 +2444,25 @@ a.card:hover {
     inset: -12px -12px 24px 20px;
   }
 }
+
+/* --------------------------------------------------------------------------
+   19. Horario
+   -------------------------------------------------------------------------- */
+.hours {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  gap: 4px 20px;
+  font-size: 14px;
+}
+
+.hours span:nth-child(even) {
+  color: var(--ink);
+}
+
+.section--dark .hours span:nth-child(even) {
+  color: var(--cream);
+}
+
+.contact-row .hours {
+  margin-top: 6px;
+}

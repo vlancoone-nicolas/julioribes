@@ -31,8 +31,15 @@ HTML5, CSS3 y JavaScript vanilla. Sin frameworks, sin build, sin dependencias.
   archivo sirve para todas las páginas.
 - Tipografías desde Google Fonts: Fraunces (titulares), Manrope (texto) y Allura (logotipo).
 
+## SEO y datos estructurados
+
+- Canónica, Open Graph y Twitter Card en cada página.
+- JSON-LD por página (Person, MedicalBusiness con horarios y reseñas, Organization, Book, FAQPage,
+  BreadcrumbList). Todo sale del mismo sitio para no duplicar datos.
+- `robots.txt` (permite rastreadores de IA), `sitemap.xml` y `llms.txt`.
+
 ## Pendiente
 
-- Enlace a la página de autor en Amazon (ahora apunta a la búsqueda por autor).
+- Coordenadas del centro (`geo` en el JSON-LD).
 - Añadir más reseñas al carrusel: copiar un `<li class="slide">` dentro de `.slider__track`;
   los puntos de navegación se generan solos.
