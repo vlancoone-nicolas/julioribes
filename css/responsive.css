@@ -1,0 +1,314 @@
+/* ==========================================================================
+   Julio Ribes — responsive.css
+   Media queries; se carga en último lugar
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   18. Responsive
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .hero__grid {
+    gap: 40px;
+  }
+
+  .book-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .index-list__item {
+    grid-template-columns: 90px 1fr 1fr 32px;
+  }
+}
+
+@media (max-width: 880px) {
+  .section {
+    padding-block: 80px;
+  }
+
+  /* Navegación móvil */
+  .nav-toggle {
+    display: block;
+  }
+
+  .site-nav {
+    position: absolute;
+    inset-inline: 0;
+    top: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding: 16px var(--gutter) 28px;
+    background: var(--cream);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 30px 40px -20px rgba(23, 22, 18, 0.3);
+    transform: translateY(-8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, transform 0.3s var(--ease), visibility 0.3s;
+  }
+
+  .site-nav.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  .site-nav__list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .site-nav__link {
+    display: block;
+    padding-block: 12px;
+    font-size: 16px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .site-nav__link::after {
+    display: none;
+  }
+
+  .site-header--on-dark:not(.is-scrolled) .site-nav__link {
+    color: var(--text);
+  }
+
+  .site-nav .btn {
+    margin-top: 12px;
+    min-height: 48px;
+  }
+
+  .site-header--overlay {
+    position: fixed;
+  }
+
+  .site-header--on-dark:not(.is-scrolled).site-header--overlay .site-nav {
+    background: var(--cream);
+  }
+
+  /* Hero */
+  .hero {
+    padding-block: 64px 96px;
+  }
+
+  .hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__figure {
+    justify-self: start;
+    margin-right: 0;
+    margin-top: 24px;
+  }
+
+  .hero__badge {
+    left: 16px;
+  }
+
+  .page-hero {
+    padding-block: 140px 72px;
+  }
+
+  /* Rejillas */
+  .stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat:nth-child(3) {
+    border-left: 0;
+  }
+
+  .stat:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--line-dark);
+  }
+
+  .index-list__item {
+    grid-template-columns: 60px 1fr 32px;
+  }
+
+  .index-list__desc {
+    grid-column: 2;
+  }
+
+  .index-list__arrow {
+    grid-row: 1;
+    grid-column: 3;
+  }
+
+  .step {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .split,
+  .split--reverse {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .split--reverse > :first-child {
+    order: 0;
+  }
+
+  .split__media img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .pillars--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pillars--3 .pillar:nth-child(3n) {
+    border-right: 1px solid var(--circ-line);
+  }
+
+  .pillars--3 .pillar:nth-child(2n) {
+    border-right: 0;
+  }
+
+  .pillars--3 .pillar:nth-last-child(-n + 3) {
+    border-bottom: 1px solid var(--circ-line);
+  }
+
+  .pillars--3 .pillar:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
+  .posts,
+  .cards,
+  .cards--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .library {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .facets {
+    grid-template-columns: 1fr;
+  }
+
+  .facet {
+    border-right: 0;
+  }
+
+  .facet:nth-last-child(2) {
+    border-bottom: 1px solid var(--line-dark);
+  }
+
+  .course {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .course .btn {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .contact-row {
+    grid-template-columns: auto 1fr;
+  }
+
+  .contact-row .btn {
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .site-footer__grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .quote-card {
+    padding: 44px 24px 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title-xl {
+    font-size: 38px;
+  }
+
+  .hero__title {
+    font-size: 42px;
+  }
+
+  .books-preview {
+    gap: 12px;
+  }
+
+  .book-grid,
+  .shelf {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 16px;
+  }
+
+  .services--wide {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-list {
+    grid-template-columns: 1fr;
+  }
+
+  .mosaic {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .mosaic__tall {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .mosaic__tall img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .services,
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .pillars,
+  .pillars--3 {
+    grid-template-columns: 1fr;
+  }
+
+  .pillar,
+  .pillars--3 .pillar:nth-child(3n) {
+    border-right: 0;
+  }
+
+  .pillar:not(:last-child),
+  .pillars--3 .pillar:not(:last-child) {
+    border-bottom: 1px solid var(--circ-line);
+  }
+
+  .stats__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat {
+    border-left: 0;
+    border-bottom: 1px solid var(--line-dark);
+  }
+
+  .stat:last-child {
+    border-bottom: 0;
+  }
+
+  .btn-group .btn {
+    width: 100%;
+  }
+
+  .hero__figure::before {
+    inset: -12px -12px 24px 20px;
+  }
+}
