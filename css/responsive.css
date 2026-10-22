@@ -209,12 +209,21 @@
   }
 
   .course {
-    grid-template-columns: 60px 1fr;
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 16px 20px;
+  }
+
+  .course i {
+    align-self: start;
+    font-size: 36px;
+    line-height: 1;
   }
 
   .course .btn {
-    grid-column: 2;
-    justify-self: start;
+    grid-column: 1 / -1;
+    width: 100%;
+    white-space: normal;
+    text-align: center;
   }
 
   .contact-row {
