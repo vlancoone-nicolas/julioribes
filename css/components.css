@@ -285,8 +285,16 @@
   aspect-ratio: 3 / 4;
 }
 
-.split__media--wide img {
-  aspect-ratio: 4 / 3;
+/* Foto vertical de poca resolución: marco estrecho para no ampliarla de más */
+.split__media--compact {
+  justify-self: end;
+  width: 100%;
+  max-width: 400px;
+}
+
+.split__media--compact img {
+  aspect-ratio: 4 / 5;
+  object-position: center 60%;
 }
 
 .split__body .btn-group {
