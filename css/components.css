@@ -1061,3 +1061,35 @@ a.card:hover {
 .contact-row .hours {
   margin-top: 6px;
 }
+
+/* --------------------------------------------------------------------------
+   20. Botón flotante de WhatsApp (inyectado por el widget; rediseñado aquí)
+   -------------------------------------------------------------------------- */
+.wa-float {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 60;
+}
+
+.wa-float__link {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(23, 22, 18, 0.25);
+  transition: transform 0.25s var(--ease), box-shadow 0.25s;
+}
+
+.wa-float__link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(23, 22, 18, 0.3);
+}
+
+.wa-float__link svg {
+  width: 30px;
+  height: 30px;
+}
