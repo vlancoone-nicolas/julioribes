@@ -155,7 +155,13 @@
     order: 0;
   }
 
+  /* Fotos de retrato: recorte vertical anclado arriba para no cortar la cabeza */
   .split__media img {
+    aspect-ratio: 4 / 5;
+    object-position: center top;
+  }
+
+  .split__media--wide img {
     aspect-ratio: 4 / 3;
   }
 
